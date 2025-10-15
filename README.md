@@ -1,10 +1,10 @@
 # Trabalho 03 - Análise de Grafos Eulerianos
 
-## 📝 Descrição
+## Descrição
 
 Este projeto implementa um analisador de grafos que determina se um grafo é **Euleriano**, **Semi-Euleriano** ou **Não-Euleriano**, baseado no teorema de Euler sobre caminhos e ciclos eulerianos. O programa também gera visualizações gráficas dos grafos analisados.
 
-## 🎯 Objetivo
+## Objetivo
 
 O objetivo principal é analisar diferentes grafos e classificá-los segundo os critérios eulerianos:
 
@@ -12,15 +12,15 @@ O objetivo principal é analisar diferentes grafos e classificá-los segundo os 
 - **Semi-Euleriano**: Possui um caminho euleriano (exatamente dois vértices têm grau ímpar)
 - **Não-Euleriano**: Não possui caminho nem ciclo euleriano (mais de dois vértices têm grau ímpar)
 
-## 🚀 Funcionalidades
+## Funcionalidades
 
-- ✅ Leitura de grafos a partir de arquivos de texto
-- ✅ Análise automática da condição euleriana
-- ✅ Geração de visualizações gráficas dos grafos
-- ✅ Processamento em lote de múltiplos arquivos
-- ✅ Análise de datasets grandes (como Email-Enron.txt)
+- Leitura de grafos a partir de arquivos de texto
+- Análise automática da condição euleriana
+- Geração de visualizações gráficas dos grafos
+- Processamento em lote de múltiplos arquivos
+- Análise de datasets grandes (como Email-Enron.txt)
 
-## 📁 Estrutura do Projeto
+## Estrutura do Projeto
 
 ```
 trabalho03-grafos/
@@ -33,7 +33,7 @@ trabalho03-grafos/
 └── README.md           # Este arquivo
 ```
 
-## 🛠️ Dependências
+## Dependências
 
 Para executar o projeto, você precisa instalar as seguintes bibliotecas Python:
 
@@ -45,7 +45,7 @@ pip install matplotlib networkx
 - **matplotlib**: Para geração de gráficos e visualizações
 - **networkx**: Para manipulação e análise de grafos
 
-## 🔧 Como Usar
+## Como Usar
 
 ### 1. Preparação do ambiente
 
@@ -76,7 +76,7 @@ vértice2 vértice4
 
 Onde cada linha representa uma aresta entre dois vértices.
 
-## 📊 Saída do Programa
+## Saída do Programa
 
 O programa gera:
 
@@ -94,7 +94,7 @@ O programa gera:
    - `Email-Enron.png`
    - etc.
 
-## 🔬 Algoritmo
+## Algoritmo
 
 ### Teorema de Euler
 O algoritmo baseia-se no teorema de Euler para grafos conexos:
@@ -118,7 +118,7 @@ def is_eulerian(self):
         return 2    # É Euleriano
 ```
 
-## 📈 Datasets
+## Datasets
 
 ### Email-Enron.txt
 - **Origem**: Dataset de comunicações por email da empresa Enron
@@ -129,7 +129,7 @@ def is_eulerian(self):
 - Grafos de teste menores para validação do algoritmo
 - Diferentes topologias para testar todos os casos (Euleriano, Semi-Euleriano, Não-Euleriano)
 
-## 🎨 Visualização
+## Visualização
 
 O programa utiliza NetworkX e Matplotlib para gerar visualizações dos grafos com:
 - Nós destacados em azul claro
@@ -137,7 +137,7 @@ O programa utiliza NetworkX e Matplotlib para gerar visualizações dos grafos c
 - Labels nos vértices
 - Título indicando o nome do arquivo
 
-## 🤝 Contribuindo
+## Contribuindo
 
 1. Faça um fork do projeto
 2. Crie uma branch para sua feature (`git checkout -b feature/AmazingFeature`)
@@ -145,14 +145,14 @@ O programa utiliza NetworkX e Matplotlib para gerar visualizações dos grafos c
 4. Push para a branch (`git push origin feature/AmazingFeature`)
 5. Abra um Pull Request
 
-## 📝 Licença
+## Licença
 
 Este projeto é desenvolvido para fins educacionais como parte do curso de Teoria dos Grafos.
 
-## 👥 Autor
+## Autor
 
 - **devNatanfreitas** - [GitHub](https://github.com/devNatanfreitas)
 
 ---
 
-⭐ Se este projeto foi útil para você, considere dar uma estrela no repositório!
+Se este projeto foi útil para você, considere dar uma estrela no repositório!
