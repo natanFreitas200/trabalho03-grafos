@@ -145,14 +145,3 @@ O programa utiliza NetworkX e Matplotlib para gerar visualizações dos grafos c
 4. Push para a branch (`git push origin feature/AmazingFeature`)
 5. Abra um Pull Request
 
-## Licença
-
-Este projeto é desenvolvido para fins educacionais como parte do curso de Teoria dos Grafos.
-
-## Autor
-
-- **devNatanfreitas** - [GitHub](https://github.com/devNatanfreitas)
-
----
-
-Se este projeto foi útil para você, considere dar uma estrela no repositório!
